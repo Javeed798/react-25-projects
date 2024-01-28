@@ -3,6 +3,8 @@ import './App.css';
 import Accordion from './components/accordion';
 import RandomColorGenerator from './components/random-color-generator';
 import StarRating from './components/star-rating/StarRating';
+import ImageSlider from './components/image-slider/ImageSlider';
+import Search from './components/search-bar-typing-animation/Search';
 
 function App() {
   return (
@@ -10,8 +12,14 @@ function App() {
       {/* <Accordion /> */}
       {/* <RandomColorGenerator /> */}
 
-      <StarRating noOfStars={50} />
-      
+      {/* <StarRating noOfStars={50} /> */}
+
+      {/* <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        limit={"10"}
+      /> */}
+
+      <Search />
     </div>
   );
 }
